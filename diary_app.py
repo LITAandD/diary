@@ -19,7 +19,7 @@ HTML_TEMPLATE = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>📔 나의 일기장</title>
+    <title>📔 LITA의 일기장</title>
     <style>
         * {
             margin: 0;
@@ -390,7 +390,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="container">
         <div class="header">
-            <h1>📔 나의 일기장</h1>
+            <h1>📔 LITA의 일기장</h1>
             <p>오늘 하루를 기록해보세요</p>
         </div>
         
@@ -790,4 +790,5 @@ if __name__ == '__main__':
     print("\n종료하려면 Ctrl+C를 누르세요")
     print("="*50 + "\n")
     
+
     app.run(host='0.0.0.0', port=5000, debug=True)
